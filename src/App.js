@@ -10,7 +10,7 @@ import './App.css';
 import Header from './layout/Header';
 import Home from './pages/Home';
 import Shows from './pages/Shows';
-
+import Footer from './layout/Footer'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
             <Route path="/shows" element={<Shows />} />
           </Routes>
         </div>
+        <Footer />
     </BrowserRouter>
   );
 }
